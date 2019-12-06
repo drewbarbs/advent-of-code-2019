@@ -71,3 +71,12 @@ executable day4p2
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
+
+executable day5
+  main-is: day5.hs
+  hs-source-dirs:
+      day5
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
