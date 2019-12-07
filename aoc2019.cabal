@@ -80,3 +80,24 @@ executable day5
       base >=4.7 && <5
   default-language: Haskell2010
 
+executable day6
+  main-is: part1.hs
+  hs-source-dirs:
+      day6
+  other-modules:
+      Common
+  build-depends:
+      base >=4.7 && <5,
+      containers
+  default-language: Haskell2010
+
+executable day6p2
+  main-is: part2.hs
+  hs-source-dirs:
+      day6
+  other-modules:
+      Common
+  build-depends:
+      base >=4.7 && <5,
+      containers
+  default-language: Haskell2010
