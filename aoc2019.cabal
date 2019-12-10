@@ -139,3 +139,13 @@ executable day8p2
       base >=4.7 && <5,
       split
   default-language: Haskell2010
+
+executable day9
+  main-is: day9.hs
+  hs-source-dirs:
+      day9
+  build-depends:
+      base >=4.7 && <5
+  ghc-options:
+      -O2
+  default-language: Haskell2010
