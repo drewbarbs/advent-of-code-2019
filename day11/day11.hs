@@ -1,7 +1,6 @@
 import Control.Arrow ((&&&))
 import Data.List (nub)
 import Data.Maybe (fromJust, fromMaybe)
-import System.IO (hFlush, stdout)
 
 type PC = Int
 
