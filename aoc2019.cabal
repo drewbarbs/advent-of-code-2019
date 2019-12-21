@@ -206,3 +206,15 @@ executable day14
   ghc-options:
       -O2
   default-language: Haskell2010
+
+
+executable day16
+  main-is: day16.hs
+  hs-source-dirs:
+      day16
+  build-depends:
+      base >=4.7 && <5,
+      deepseq
+  ghc-options:
+      -O2
+  default-language: Haskell2010
